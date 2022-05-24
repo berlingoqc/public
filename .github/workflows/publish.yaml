@@ -12,8 +12,14 @@ jobs:
     - uses: actions/checkout@v2
       with:
         submodules: recursive
+    - name: Prebuild hugo
+      run: ./scripts/generate_log_to_blog.sh
     - name: Build hugo
-      run: ./scripts/generate_log_to_blog.sh && hugo -D
+      uses: crazy-max/ghaction-hugo@v1
+      with:
+        version: latest
+        extended: false
+        args: --cleanDestinationDir --minify --verbose
     - name: Publish generated content to GitHub Pages
       uses: tsunematsu21/actions-publish-gh-pages@v1.0.2
       with:
