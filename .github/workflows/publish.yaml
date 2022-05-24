@@ -1,0 +1,22 @@
+name: Publish to GitHub Pages
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+      with:
+        submodules: recursive
+    - name: Build hugo
+      run: ./scripts/generate_log_to_blog.sh && hugo -D
+    - name: Publish generated content to GitHub Pages
+        uses: tsunematsu21/actions-publish-gh-pages@v1.0.2
+        with:
+          dir: client/public
+          branch: gh-pages
+          token: ${{ secrets.ACCESS_TOKEN }}
