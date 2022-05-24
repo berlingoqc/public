@@ -14,9 +14,6 @@ function create_post_file() {
 rm -rf $POST_FOLDER
 git clone $GITHUB_REPO
 
-
-ls -la
-
 for log in $(ls $POST_FOLDER/$PROJECT_LOG_FOLDER/*.md); do
     filename=$(basename $log)
     create_post_file $log content/$POST_FOLDER/journal/$filename
