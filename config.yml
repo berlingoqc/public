@@ -20,8 +20,6 @@ params:
   description: "Berlingoqc is the personal website of me"
   keywords: [Blog, Portfolio, PaperMod]
   author: Me
-  # author: ["Me", "You"] # multiple authors
-  images: ["<link or path of image for opengraph, twitter-cards>"]
   DateFormat: "January 2, 2006"
   defaultTheme: auto # dark, light
   disableThemeToggle: false
@@ -45,52 +43,42 @@ params:
   assets:
     # disableHLJS: true # to disable highlight.js
     # disableFingerprinting: true
-    # favicon: "<link / abs url>"
-    # favicon16x16: "<link / abs url>"
-    # favicon32x32: "<link / abs url>"
-    # apple_touch_icon: "<link / abs url>"
-    # safari_pinned_tab: "<link / abs url>"
+     favicon: "logo/favicon.ico"
+     favicon16x16: "logo/favicon-16x16.png"
+     favicon32x32: "logo/favicon-32x32.png"
+     apple_touch_icon: "logo/apple-touch-icon.png"
 
   label:
-    text: "Home"
-    icon: /apple-touch-icon.png
+    text: "berlingoqc"
+    icon: logo/logo.png
     iconHeight: 35
 
   # profile-mode
   profileMode:
-    enabled: false # needs to be explicitly set
-    title: ExampleSite
-    subtitle: "This is subtitle"
-    imageUrl: "<img location>"
+    enabled: true # needs to be explicitly set
+    title: berlingoqc
+    subtitle: "Professional blog of William Quintal (berlingoqc) about my projects"
+    imageUrl: "logo/logo.png"
     imageWidth: 120
     imageHeight: 120
     imageTitle: my image
     buttons:
-      - name: Posts
-        url: posts
+      - name: Growbe
+        url: "https://doc.growbe.ca"
       - name: Tags
         url: tags
 
-  # home-info mode
-  homeInfoParams:
-    Title: "Hello \U0001F44B"
-    Content: Welcome to my personal website where i post and update information about my projects
-
   socialIcons:
-    - name: twitter
-      url: "https://twitter.com/"
-    - name: stackoverflow
-      url: "https://stackoverflow.com"
     - name: github
       url: "https://github.com/berlingoqc"
-
-  analytics:
-    google:
-      SiteVerificationTag: "XYZabc"
-    bing:
-      SiteVerificationTag: "XYZabc"
-    yandex:
-      SiteVerificationTag: "XYZabc"
+    - name: youtube
+      url: "https://www.youtube.com/channel/UCfWKIzcoeyBqdqw0NYqelJw"
+    - name: linkedin
+      url: "https://www.linkedin.com/in/william-quintal-997736136/"
+    - name: twitter
+      url: "https://twitter.com/berlingoqc"
+    - name: stackoverflow
+      url: "https://stackoverflow.com/users/10626512/william-quintal"
 
   cover:
     hidden: true # hide everywhere but not in structured data
@@ -114,11 +102,19 @@ params:
     keys: ["title", "permalink", "summary", "content"]
 menu:
   main:
-    - identifier: categories
-      name: categories
-      url: /categories/
-      weight: 10
-    - identifier: tags
-      name: tags
-      url: /tags/
-      weight: 20
+    - identifier: me
+      name: Me
+      url: me
+      weight: 1
+    - identifier: projets
+      name: Projects
+      url: projects
+      weight: 2
+    - identifier: cod-zombie-2d-clone
+      name: Devlog cod-zombie-2d-clone
+      url: cod-zombie-2d-clone/
+      weight: 5
+    - identifier: growbe
+      name: Growbe
+      url: "https://doc.growbe.ca"
+      weight: 40
