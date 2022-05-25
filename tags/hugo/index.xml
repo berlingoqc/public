@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>hugo on berlingoqc</title>
-    <link>https://berlingoqc.github.io/berlingoqc-public/tags/hugo/</link>
+    <link>https://berlingoqc.github.io/public/tags/hugo/</link>
     <description>Recent content in hugo on berlingoqc</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 24 May 2022 11:30:03 +0000</lastBuildDate><atom:link href="https://berlingoqc.github.io/berlingoqc-public/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 24 May 2022 11:30:03 +0000</lastBuildDate><atom:link href="https://berlingoqc.github.io/public/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Setuping my blog</title>
-      <link>https://berlingoqc.github.io/berlingoqc-public/blogs/setup_my_blog/</link>
+      <link>https://berlingoqc.github.io/public/blogs/setup_my_blog/</link>
       <pubDate>Tue, 24 May 2022 11:30:03 +0000</pubDate>
       
-      <guid>https://berlingoqc.github.io/berlingoqc-public/blogs/setup_my_blog/</guid>
+      <guid>https://berlingoqc.github.io/public/blogs/setup_my_blog/</guid>
       <description>Long overdue I don&amp;rsquo;t know if trully usefull , but it&amp;rsquo;s a lowkey goal for many programmer to have their own blog to post tutorial , information and opinion on programming.
 For me i think it&amp;rsquo;s the third or fourth time since a start to code that i try to create a website for myself.
 All the previous time i try to create a framework for blogging from scratch in golang or something else.</description>
