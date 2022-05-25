@@ -12,7 +12,7 @@ TocOpen: true
 Hello my name is William Quintal , i'm a developer from the nation of Québec (currently trap in the country of Canada).
 
 I create this website to write about my experiences related to programmation, my opinions and to post release and stuff
-about my too [many projects](/berlingoqc-public/projects/).
+about my too [many projects](/public/projects/).
 
 ## Current job
 
