@@ -1,6 +1,6 @@
 ---
 title: "My projects"
-date: 2021-04-13T11:30:03+00:00
+date: 2022-05-24T11:30:03+00:00
 tags: ["journal", "cod-zombie", "bevy"]
 author: "berlingoqc"
 showToc: true

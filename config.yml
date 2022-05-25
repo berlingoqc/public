@@ -1,4 +1,4 @@
-baseURL: "https://berlingoqc.github.io/berlingoqc-public/"
+baseURL: "https://berlingoqc.github.io/public/"
 title: berlingoqc
 paginate: 5
 theme: PaperMod
