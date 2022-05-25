@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>berlingoqc</title>
+    <link>https://berlingoqc.github.io/berlingoqc-public/</link>
+    <description>Recent content on berlingoqc</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Tue, 24 May 2022 11:30:03 +0000</lastBuildDate><atom:link href="https://berlingoqc.github.io/berlingoqc-public/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>First day just thinking</title>
+      <link>https://berlingoqc.github.io/berlingoqc-public/cod-zombie-2d-clone/journal/2022-04-13/</link>
+      <pubDate>Tue, 13 Apr 2021 11:30:03 +0000</pubDate>
+      
+      <guid>https://berlingoqc.github.io/berlingoqc-public/cod-zombie-2d-clone/journal/2022-04-13/</guid>
+      <description>The start of something new Introduction A new year a new project. (4 months too late)
+I start programming to learn the craft on how to make video game.
+I even when to a school that put focus in that learning OpenGL and Unreal Engine 4 as a end of program projects. But like all my friends and collegue , we all went where to work is steady and the money is easy &amp;hellip; in web development , working on backend , frontend and CI/CD.</description>
+    </item>
+    
+    <item>
+      <title>Starting the project</title>
+      <link>https://berlingoqc.github.io/berlingoqc-public/cod-zombie-2d-clone/journal/2022-04-14/</link>
+      <pubDate>Wed, 14 Apr 2021 11:30:03 +0000</pubDate>
+      
+      <guid>https://berlingoqc.github.io/berlingoqc-public/cod-zombie-2d-clone/journal/2022-04-14/</guid>
+      <description>Starting the project I havent readed a lot of the documentation and havent done mutch planing like i always do. I will see how thing are evolving during the development.
+I don&amp;rsquo;t have mutch time today but my goals are to:
+ Create the base of the project. Create building scripts. Open a window and display something.  Steps I&amp;rsquo;m basically gona follow the step from bevy-robbo project and the unoffical guide.</description>
+    </item>
+    
+    <item>
+      <title>Trying to integrate a tiled library</title>
+      <link>https://berlingoqc.github.io/berlingoqc-public/cod-zombie-2d-clone/journal/2022-04-15/</link>
+      <pubDate>Thu, 15 Apr 2021 11:30:03 +0000</pubDate>
+      
+      <guid>https://berlingoqc.github.io/berlingoqc-public/cod-zombie-2d-clone/journal/2022-04-15/</guid>
+      <description>Vendredi saint [WORKING]
+During the night, i finish the wall collision and the shooting of ammunition, very very basic but it&amp;rsquo;s working. The ammunition should collide with the collider and be destroy after some distance cross or time.
+[WORKING]
+This morning , I waste some of my time on bevy_tiled like a total idiot, got it to compile and run but the missing part was the shaders&amp;hellip; so i look around and the author have switch to a new library more universal that also support tiled.</description>
+    </item>
+    
+    <item>
+      <title>Implementing the base of the game</title>
+      <link>https://berlingoqc.github.io/berlingoqc-public/cod-zombie-2d-clone/journal/2022-04-18/</link>
+      <pubDate>Sun, 18 Apr 2021 11:30:03 +0000</pubDate>
+      
+      <guid>https://berlingoqc.github.io/berlingoqc-public/cod-zombie-2d-clone/journal/2022-04-18/</guid>
+      <description>Doing some little work in my off time I realise that the map is not displaying in the web version of the app when it was deploy to the github page.
+Not really sure why , i got the warning for the COPY thing of the textures in the log and when i go the to network tab i see the data get loaded and in the log. So the texture seem the be render but not displaying, not sure, i&amp;rsquo;m not gonna stress to mutch about this for now.</description>
+    </item>
+    
+    <item>
+      <title>Starting to look at the networking</title>
+      <link>https://berlingoqc.github.io/berlingoqc-public/cod-zombie-2d-clone/journal/2022-04-19/</link>
+      <pubDate>Mon, 19 Apr 2021 11:30:03 +0000</pubDate>
+      
+      <guid>https://berlingoqc.github.io/berlingoqc-public/cod-zombie-2d-clone/journal/2022-04-19/</guid>
+      <description>Starting to look at multiplayer. I have start to look at the library : https://github.com/smokku/bevy_networking_turbulence which seem to be perfect for my use case , support UDP and WebRTC but for what i understand you start the serveur for WebRTC ou UDP , so the client playing on desktop would not be able to play with the one on the web.
+I have fork the library to update it to bevy 0.</description>
+    </item>
+    
+    <item>
+      <title>Regretting my life splitting the code</title>
+      <link>https://berlingoqc.github.io/berlingoqc-public/cod-zombie-2d-clone/journal/2022-04-20/</link>
+      <pubDate>Tue, 20 Apr 2021 11:30:03 +0000</pubDate>
+      
+      <guid>https://berlingoqc.github.io/berlingoqc-public/cod-zombie-2d-clone/journal/2022-04-20/</guid>
+      <description>New day , new issue [WORKING]
+I start my game natively and the game was laggy like shit. Took me a while to figure it out but the compiler was telling me why all along , sorry rustc shound not have ignore your sweet warning. My profile with optimisation where no being apply because you need to put them in the crate root &amp;hellip;.
+It&amp;rsquo;s funny without optimisation it&amp;rsquo;s totally unplayable even in this early stage.</description>
+    </item>
+    
+    <item>
+      <title>Setuping the base of the server project</title>
+      <link>https://berlingoqc.github.io/berlingoqc-public/cod-zombie-2d-clone/journal/2022-04-23/</link>
+      <pubDate>Fri, 23 Apr 2021 11:30:03 +0000</pubDate>
+      
+      <guid>https://berlingoqc.github.io/berlingoqc-public/cod-zombie-2d-clone/journal/2022-04-23/</guid>
+      <description>Starting to implement the networking Yeah , i&amp;rsquo;m kinda lost with the networking. It seem like hard work to implement for the first time correctly. But i feel it&amp;rsquo;s very important right now because i want to structure my code in the future for this.
+Interlude hot reloading server I lost so time because things were not working because of me and because i hardcoded some value requiring multiple change when changing build target instead of one&amp;hellip;.</description>
+    </item>
+    
+    <item>
+      <title>Implemting weapons</title>
+      <link>https://berlingoqc.github.io/berlingoqc-public/cod-zombie-2d-clone/journal/2022-04-25/</link>
+      <pubDate>Sun, 25 Apr 2021 11:30:03 +0000</pubDate>
+      
+      <guid>https://berlingoqc.github.io/berlingoqc-public/cod-zombie-2d-clone/journal/2022-04-25/</guid>
+      <description>Finishing the network split &amp;hellip;. I had issue , and for some reason the server is not responding to anything the client is doing, so i&amp;rsquo;m deciding to put the networking on hold for now&amp;hellip;
+I&amp;rsquo;ll go back to the gameplay so today i want to do the following things:
+ Implements Weapon with firing rate Implements Windows breaking  Good time with weapon.  First the user gonna have multiple slot for weapons.</description>
+    </item>
+    
+    <item>
+      <title>More weapon and starting windows</title>
+      <link>https://berlingoqc.github.io/berlingoqc-public/cod-zombie-2d-clone/journal/2022-04-26/</link>
+      <pubDate>Mon, 26 Apr 2021 11:30:03 +0000</pubDate>
+      
+      <guid>https://berlingoqc.github.io/berlingoqc-public/cod-zombie-2d-clone/journal/2022-04-26/</guid>
+      <description>Continuing weapon  I need to fix the issue when i try to add two gun and the second one is not working. After i want to add a spreading value for weapon ( like for the precision of the weapon ) Implements a shotgun with multiple bullet being spawn ( need to configure the sprite to be smaller)  [WORKING]
+Yes it&amp;rsquo;s done for the switching of weapon , it was very strange , i was using a boolean in the struct of the state of the weapon to tell if it was active or not but when i was changing this state the qery was not returning the newly activate weapon no more.</description>
+    </item>
+    
+    <item>
+      <title>Cleaning in asset and better live reloading</title>
+      <link>https://berlingoqc.github.io/berlingoqc-public/cod-zombie-2d-clone/journal/2022-04-27/</link>
+      <pubDate>Tue, 27 Apr 2021 11:30:03 +0000</pubDate>
+      
+      <guid>https://berlingoqc.github.io/berlingoqc-public/cod-zombie-2d-clone/journal/2022-04-27/</guid>
+      <description>I complete what i start yesterday with the window reparation working properly.
+The window panel take time to repair and if you go too far or release the button the ingoing reparation stop and when one is over and you keep the trigger the next one start reparing.
+I just need to have a better separation in my code for the code that trigger the player interaction and the differents implementation of the different interaction, because the way i did it , it will sooon because unmanagable.</description>
+    </item>
+    
+    <item>
+      <title>Character animation and sprite sheet</title>
+      <link>https://berlingoqc.github.io/berlingoqc-public/cod-zombie-2d-clone/journal/2022-04-28/</link>
+      <pubDate>Wed, 28 Apr 2021 11:30:03 +0000</pubDate>
+      
+      <guid>https://berlingoqc.github.io/berlingoqc-public/cod-zombie-2d-clone/journal/2022-04-28/</guid>
+      <description>Come on we need some sprite OK so i decide that the color cube had to go.
+It&amp;rsquo;s time to integrate some sprite sheet and to have a basic animation system inside the application.
+All the code for the animation and sprite sheet are gonna recide in the client code so the server will spawn the entity and the client will have code to react and apply the texture and sprite to the entity.</description>
+    </item>
+    
+    <item>
+      <title>Main menu and game stopping in the plane to brazil</title>
+      <link>https://berlingoqc.github.io/berlingoqc-public/cod-zombie-2d-clone/journal/2022-05-06/</link>
+      <pubDate>Thu, 06 May 2021 11:30:03 +0000</pubDate>
+      
+      <guid>https://berlingoqc.github.io/berlingoqc-public/cod-zombie-2d-clone/journal/2022-05-06/</guid>
+      <description>I&amp;rsquo;m leaving for a month of vacation in Brazil soo this is my last modification for a long time.
+Add main menu i added a game menu, pretty straight forward , i added system when state are changing to remove map element and reset the game state.
+But i added to many system that all do the samething. I will rework to only have one query to remove every element. With a component name something like ZombieGameEntity.</description>
+    </item>
+    
+    <item>
+      <title>Better collision for zombies</title>
+      <link>https://berlingoqc.github.io/berlingoqc-public/cod-zombie-2d-clone/journal/2022-05-24/</link>
+      <pubDate>Mon, 24 May 2021 11:30:03 +0000</pubDate>
+      
+      <guid>https://berlingoqc.github.io/berlingoqc-public/cod-zombie-2d-clone/journal/2022-05-24/</guid>
+      <description>Starting back the project. I was in vacation for the month of may in brazil.
+Make the game running at the same speed regardless of framerate One thing that i didn&amp;rsquo;t consider at first is the make the movement of my character consistent with frame rate.
+I added a component to register the current frame rate and i&amp;rsquo;m using it in the movement calculation of the player and bullet, the rest are based on timer that should be consistent with the framerate.</description>
+    </item>
+    
+    <item>
+      <title>Setuping my blog</title>
+      <link>https://berlingoqc.github.io/berlingoqc-public/blogs/setup_my_blog/</link>
+      <pubDate>Tue, 24 May 2022 11:30:03 +0000</pubDate>
+      
+      <guid>https://berlingoqc.github.io/berlingoqc-public/blogs/setup_my_blog/</guid>
+      <description>Long overdue I don&amp;rsquo;t know if trully usefull , but it&amp;rsquo;s a lowkey goal for many programmer to have their own blog to post tutorial , information and opinion on programming.
+For me i think it&amp;rsquo;s the third or fourth time since a start to code that i try to create a website for myself.
+All the previous time i try to create a framework for blogging from scratch in golang or something else.</description>
+    </item>
+    
+    <item>
+      <title>Me</title>
+      <link>https://berlingoqc.github.io/berlingoqc-public/me/</link>
+      <pubDate>Tue, 13 Apr 2021 11:30:03 +0000</pubDate>
+      
+      <guid>https://berlingoqc.github.io/berlingoqc-public/me/</guid>
+      <description>William Quintal aka berlingoqc Hello my name is William Quintal , i&amp;rsquo;m a developer from the nation of Québec (currently trap in the country of Canada).
+I create this website to write about my experiences related to programmation, my opinions and to post release and stuff about my too many projects.
+Current job I&amp;rsquo;m currently working for Ticketmaster as a DevOps.
+Reach me You can reach me by email at: berlingoqc@gmail.</description>
+    </item>
+    
+    <item>
+      <title>My projects</title>
+      <link>https://berlingoqc.github.io/berlingoqc-public/projects/</link>
+      <pubDate>Tue, 13 Apr 2021 11:30:03 +0000</pubDate>
+      
+      <guid>https://berlingoqc.github.io/berlingoqc-public/projects/</guid>
+      <description>Active Projects I&amp;rsquo;m working on the following projects:
+growbe My biggest project to date. This is a end to end modulable solution for envrionment control (mainly greenhouse). A projects that i start many years ago with a friend who make the board, the hardware and the firmware and i&amp;rsquo;m in charge of all the code (IoT , cloud and infrastrucutre ).
+A really cool project that will soon reach some level of maturity.</description>
+    </item>
+    
+  </channel>
+</rss>

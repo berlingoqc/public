@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Tags on berlingoqc</title>
+    <link>https://berlingoqc.github.io/berlingoqc-public/tags/</link>
+    <description>Recent content in Tags on berlingoqc</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Tue, 24 May 2022 11:30:03 +0000</lastBuildDate><atom:link href="https://berlingoqc.github.io/berlingoqc-public/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>blog</title>
+      <link>https://berlingoqc.github.io/berlingoqc-public/tags/blog/</link>
+      <pubDate>Tue, 24 May 2022 11:30:03 +0000</pubDate>
+      
+      <guid>https://berlingoqc.github.io/berlingoqc-public/tags/blog/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>hugo</title>
+      <link>https://berlingoqc.github.io/berlingoqc-public/tags/hugo/</link>
+      <pubDate>Tue, 24 May 2022 11:30:03 +0000</pubDate>
+      
+      <guid>https://berlingoqc.github.io/berlingoqc-public/tags/hugo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>bevy</title>
+      <link>https://berlingoqc.github.io/berlingoqc-public/tags/bevy/</link>
+      <pubDate>Mon, 24 May 2021 11:30:03 +0000</pubDate>
+      
+      <guid>https://berlingoqc.github.io/berlingoqc-public/tags/bevy/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>cod-zombie</title>
+      <link>https://berlingoqc.github.io/berlingoqc-public/tags/cod-zombie/</link>
+      <pubDate>Mon, 24 May 2021 11:30:03 +0000</pubDate>
+      
+      <guid>https://berlingoqc.github.io/berlingoqc-public/tags/cod-zombie/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>journal</title>
+      <link>https://berlingoqc.github.io/berlingoqc-public/tags/journal/</link>
+      <pubDate>Mon, 24 May 2021 11:30:03 +0000</pubDate>
+      
+      <guid>https://berlingoqc.github.io/berlingoqc-public/tags/journal/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>me</title>
+      <link>https://berlingoqc.github.io/berlingoqc-public/tags/me/</link>
+      <pubDate>Tue, 13 Apr 2021 11:30:03 +0000</pubDate>
+      
+      <guid>https://berlingoqc.github.io/berlingoqc-public/tags/me/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
