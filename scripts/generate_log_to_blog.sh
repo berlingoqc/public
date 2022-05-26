@@ -5,7 +5,7 @@ POST_FOLDER="cod-zombie-2d-clone"
 PROJECT_LOG_FOLDER="logs"
 
 rm -rf $POST_FOLDER
-git clone $GITHUB_REPO
+git clone --progress --verbose $GITHUB_REPO
 
 for log in $(ls $POST_FOLDER/$PROJECT_LOG_FOLDER/*.md); do
     filename=$(basename $log)
