@@ -7,7 +7,7 @@ PROJECT_LOG_FOLDER="logs"
 rm -rf $POST_FOLDER
 git clone --progress --verbose $GITHUB_REPO
 
-ls -la POST_FOLDER
+ls -la $POST_FOLDER
 ls -la
 
 for log in $(ls $POST_FOLDER/$PROJECT_LOG_FOLDER/*.md); do
