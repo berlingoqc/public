@@ -46,34 +46,49 @@ a starter on a motor , all i need is to start the beast and unleash it.
 So the topic for this classe must be:
 
 * Introduction to programmation
-        * How do we write code from source code to executable. ( PC architecture , assembly , compiler , linker and shared library )
-        * What are the paradigm of programming. (oop , structural , functional )
-        * The different flavor of language. (interpreted vs compiled vs both together)
-        * Start the base of programming (condition , loop and variable type )
-        * Object Orientated how do me organize code in 1995 (Class , interface , inheritance , polymorphism )
-        * Functional Programming how do we not bore ourself with abstraction and classe ( first order function , mixin )
-        * I don't want to do things all be myself welcome to Framework and Library with the help of packet manager
-        * Doctor i need a editor to help my migrain from writing code in a basic text editor
-        * First little project an application that but all of this together
-        * Scripting is fun , i can do things other that manually :0
+    * How do we write code from source code to executable. ( PC architecture , assembly , compiler , linker and shared library )
+    * What are the paradigm of programming. (oop , structural , functional )
+    * The different flavor of language. (interpreted vs compiled vs both together)
+    * Start the base of programming (condition , loop and variable type )
+    * Object Orientated how do me organize code in 1995 (Class , interface , inheritance , polymorphism )
+    * Functional Programming how do we not bore ourself with abstraction and classe ( first order function , mixin )
+    * I don't want to do things all be myself welcome to Framework and Library with the help of packet manager
+    * Doctor i need a editor to help my migrain from writing code in a basic text editor
+    * First little project an application that but all of this together
+    * Scripting is fun , i can do things other that manually :0
 * The cloud
-        * What , Where and Who is the damn cloud.
-        * How do i get my code there (DNS , webserver and Paas)
-        * We gona need a bigger ship to learn Docker
-        * How do we scale this ? kubernetes is hard or is it ?
+    * What , Where and Who is the damn cloud.
+    * How do i get my code there (DNS , webserver and Paas)
+    * I'm lazy can you plz build , test and deploy this for me CI/CD 
+    * We gona need a bigger ship to learn Docker
+    * How do we scale this ? kubernetes is hard or is it ?
 * Web programming
-        * I just put things inside <> and i design an interface.
-        * Things getting pretty with the help of css
-        * But how do we move things , thanks go javascript is a sound language
-        * But how do we shared dynamic information help me database
-        * Time to choice a development stack for a fullstack application
-        * Get your end dirty it's time to code mofo
+    * I just put things inside <> and i design an interface.
+    * Things getting pretty with the help of css
+    * But how do we move things , thanks go javascript is a sound language
+    * But how do we shared dynamic information help me database
+    * Time to choice a development stack for a fullstack application
+    * Get your end dirty it's time to code mofo
 
 The language use in this class:
 
-* bash ( for scripting and for being apart from normal languge )
-* python ( for scripting in a "real" language and for dynamic typing )
-* go ( to learn the base of programming , compilation , library and learning from the doc )
-* Typescript or javascript front-end ( depending of the choice of the student in framework for the final project )
-* Typescript or go or kotlin ( depending of the choice of the student in framework for the final project )
+* bash
+
+for scripting and for being apart from normal languge
+
+* python 
+
+for scripting in a "real" language and for dynamic typing
+
+* go
+
+to learn the base of programming , compilation , library and learning from the doc
+
+* Typescript or javascript front-end 
+
+depending of the choice of the student in framework for the final project
+
+* Typescript or go or kotlin
+
+depending of the choice of the student in framework for the final project
 
