@@ -25,7 +25,7 @@ I even when to a school that put focus in that learning OpenGL and Unreal Engine
       <guid>https://berlingoqc.github.io/public/cod-zombie-2d-clone/journal/2022-04-14/</guid>
       <description>Starting the project I havent readed a lot of the documentation and havent done mutch planing like i always do. I will see how thing are evolving during the development.
 I don&amp;rsquo;t have mutch time today but my goals are to:
- Create the base of the project. Create building scripts. Open a window and display something.  Steps I&amp;rsquo;m basically gona follow the step from bevy-robbo project and the unoffical guide.</description>
+Create the base of the project. Create building scripts. Open a window and display something. Steps I&amp;rsquo;m basically gona follow the step from bevy-robbo project and the unoffical guide.</description>
     </item>
     
     <item>
@@ -89,7 +89,7 @@ Interlude hot reloading server I lost so time because things were not working be
       <guid>https://berlingoqc.github.io/public/cod-zombie-2d-clone/journal/2022-04-25/</guid>
       <description>Finishing the network split &amp;hellip;. I had issue , and for some reason the server is not responding to anything the client is doing, so i&amp;rsquo;m deciding to put the networking on hold for now&amp;hellip;
 I&amp;rsquo;ll go back to the gameplay so today i want to do the following things:
- Implements Weapon with firing rate Implements Windows breaking  Good time with weapon.  First the user gonna have multiple slot for weapons.</description>
+Implements Weapon with firing rate Implements Windows breaking Good time with weapon. First the user gonna have multiple slot for weapons.</description>
     </item>
     
     <item>
@@ -98,7 +98,7 @@ I&amp;rsquo;ll go back to the gameplay so today i want to do the following thing
       <pubDate>Tue, 26 Apr 2022 11:30:03 +0000</pubDate>
       
       <guid>https://berlingoqc.github.io/public/cod-zombie-2d-clone/journal/2022-04-26/</guid>
-      <description>Continuing weapon  I need to fix the issue when i try to add two gun and the second one is not working. After i want to add a spreading value for weapon ( like for the precision of the weapon ) Implements a shotgun with multiple bullet being spawn ( need to configure the sprite to be smaller)  [WORKING]
+      <description>Continuing weapon I need to fix the issue when i try to add two gun and the second one is not working. After i want to add a spreading value for weapon ( like for the precision of the weapon ) Implements a shotgun with multiple bullet being spawn ( need to configure the sprite to be smaller) [WORKING]
 Yes it&amp;rsquo;s done for the switching of weapon , it was very strange , i was using a boolean in the struct of the state of the weapon to tell if it was active or not but when i was changing this state the qery was not returning the newly activate weapon no more.</description>
     </item>
     
@@ -189,6 +189,17 @@ All the previous time i try to create a framework for blogging from scratch in g
 I&amp;rsquo;m flexible and i can create a special course for your need based on my experiences and knowledge you can read more about this here
 My values are about sharing knowledge and openness.
 All teaching that i will do will be open source and free to access by all other people on this website.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://berlingoqc.github.io/public/cod-zombie-2d-clone/journal/2022-06-02/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://berlingoqc.github.io/public/cod-zombie-2d-clone/journal/2022-06-02/</guid>
+      <description>I still have an issue with collision When the zombie wanna cross the destroy window , they just teleport to the other side after some akward step. I need to fix this.
+The first option that i was thinking of is to add property to the collision element to allow specific type of character to cross this element when it&amp;rsquo;s at true.
+Other option would be to disable the collision on the zombie for the time he cross the window i guess.</description>
     </item>
     
   </channel>
