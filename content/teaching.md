@@ -21,7 +21,9 @@ My values are about sharing knowledge and openness.
 All teaching that i will do will be open source and free to access by all other
 people on this website. All learning material should be free to access.
 
+
 ## Reach me
+
 
 If you are interessted you can reach me at `berlingoqc@gmail.com`.
 
