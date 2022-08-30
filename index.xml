@@ -188,10 +188,10 @@ Other option would be to disable the collision on the zombie for the time he cro
       <pubDate>Tue, 24 May 2022 11:30:03 +0000</pubDate>
       
       <guid>https://berlingoqc.github.io/public/me/</guid>
-      <description>William Quintal aka berlingoqc Hello my name is William Quintal , i&amp;rsquo;m a developer from the nation of Québec (currently trap in the country of Canada).
-I create this website to write about my experiences related to programmation, my opinions and to post release and stuff about my projects.
-Job experiences and role Desjardins First programming job of my life.
-I was working on multiple small Angular application to add new components.</description>
+      <description>Job experiences and role Desjardins Internship Apr 2019 - Oct 2019 · 7 months First programming job of my life.
+I was working on multiple small Angular application to add new components. Also work a bit with Spring boot microservice with controller generated from the swagger definition.
+This intership allowed me to discover many technologie and concept like :
+Angular Kotlin / Spring Boot Swagger and OpenAPI Postman Building api Seperation of the different models Alborea Nov 2019 - Oct 2021 · 2 years Montréal, Québec First job working alone.</description>
     </item>
     
     <item>
