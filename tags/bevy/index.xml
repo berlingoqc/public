@@ -5,7 +5,7 @@
     <link>https://berlingoqc.github.io/public/tags/bevy/</link>
     <description>Recent content in bevy on berlingoqc</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 24 May 2022 11:30:03 +0000</lastBuildDate><atom:link href="https://berlingoqc.github.io/public/tags/bevy/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 02 Jun 2022 11:30:03 +0000</lastBuildDate><atom:link href="https://berlingoqc.github.io/public/tags/bevy/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>First day just thinking</title>
       <link>https://berlingoqc.github.io/public/cod-zombie-2d-clone/journal/2022-04-13/</link>
@@ -144,6 +144,42 @@ But i added to many system that all do the samething. I will rework to only have
       <description>Starting back the project. I was in vacation for the month of may in brazil.
 Make the game running at the same speed regardless of framerate One thing that i didn&amp;rsquo;t consider at first is the make the movement of my character consistent with frame rate.
 I added a component to register the current frame rate and i&amp;rsquo;m using it in the movement calculation of the player and bullet, the rest are based on timer that should be consistent with the framerate.</description>
+    </item>
+    
+    <item>
+      <title>Integration of gamepad</title>
+      <link>https://berlingoqc.github.io/public/cod-zombie-2d-clone/journal/2022-06-04/</link>
+      <pubDate>Thu, 02 Jun 2022 11:30:03 +0000</pubDate>
+      
+      <guid>https://berlingoqc.github.io/public/cod-zombie-2d-clone/journal/2022-06-04/</guid>
+      <description>Integration of bevy gamepad support Until the beginning of my game all controle where hard coded in the code that handle the logic.
+I need to do two things with my controller code:
+Split it inside the client code.
+Send the client code action to the shared code.
+Use abstraction to handle gamepad and input for each player
+For now i will only two the second one for the gamepad and latter on i will split the input and the logic code.</description>
+    </item>
+    
+    <item>
+      <title>Integration of local multiplayer</title>
+      <link>https://berlingoqc.github.io/public/cod-zombie-2d-clone/journal/2022-06-05/</link>
+      <pubDate>Thu, 02 Jun 2022 11:30:03 +0000</pubDate>
+      
+      <guid>https://berlingoqc.github.io/public/cod-zombie-2d-clone/journal/2022-06-05/</guid>
+      <description>In the client code when starting a zombie game i configure the list of player in the game and the controller they use.
+Things to rework to get this to work.
+Replace all player.get_single() to array iterring over everything Need to rework the way the zombie select there target (pick the player) Need to rescope the query on weapons to only look for weapon of the player not all weapons Need to redo the in game ui to have stat of all the player.</description>
+    </item>
+    
+    <item>
+      <title>Still better collision and health system</title>
+      <link>https://berlingoqc.github.io/public/cod-zombie-2d-clone/journal/2022-06-02/</link>
+      <pubDate>Thu, 02 Jun 2022 11:30:03 +0000</pubDate>
+      
+      <guid>https://berlingoqc.github.io/public/cod-zombie-2d-clone/journal/2022-06-02/</guid>
+      <description>I still have an issue with collision When the zombie wanna cross the destroy window , they just teleport to the other side after some akward step. I need to fix this.
+The first option that i was thinking of is to add property to the collision element to allow specific type of character to cross this element when it&amp;rsquo;s at true.
+Other option would be to disable the collision on the zombie for the time he cross the window i guess.</description>
     </item>
     
     <item>

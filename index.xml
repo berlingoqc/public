@@ -5,7 +5,7 @@
     <link>https://berlingoqc.github.io/public/</link>
     <description>Recent content on berlingoqc</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 24 May 2022 11:30:03 +0000</lastBuildDate><atom:link href="https://berlingoqc.github.io/public/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 02 Jun 2022 11:30:03 +0000</lastBuildDate><atom:link href="https://berlingoqc.github.io/public/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>First day just thinking</title>
       <link>https://berlingoqc.github.io/public/cod-zombie-2d-clone/journal/2022-04-13/</link>
@@ -147,14 +147,51 @@ I added a component to register the current frame rate and i&amp;rsquo;m using i
     </item>
     
     <item>
+      <title>Integration of gamepad</title>
+      <link>https://berlingoqc.github.io/public/cod-zombie-2d-clone/journal/2022-06-04/</link>
+      <pubDate>Thu, 02 Jun 2022 11:30:03 +0000</pubDate>
+      
+      <guid>https://berlingoqc.github.io/public/cod-zombie-2d-clone/journal/2022-06-04/</guid>
+      <description>Integration of bevy gamepad support Until the beginning of my game all controle where hard coded in the code that handle the logic.
+I need to do two things with my controller code:
+Split it inside the client code.
+Send the client code action to the shared code.
+Use abstraction to handle gamepad and input for each player
+For now i will only two the second one for the gamepad and latter on i will split the input and the logic code.</description>
+    </item>
+    
+    <item>
+      <title>Integration of local multiplayer</title>
+      <link>https://berlingoqc.github.io/public/cod-zombie-2d-clone/journal/2022-06-05/</link>
+      <pubDate>Thu, 02 Jun 2022 11:30:03 +0000</pubDate>
+      
+      <guid>https://berlingoqc.github.io/public/cod-zombie-2d-clone/journal/2022-06-05/</guid>
+      <description>In the client code when starting a zombie game i configure the list of player in the game and the controller they use.
+Things to rework to get this to work.
+Replace all player.get_single() to array iterring over everything Need to rework the way the zombie select there target (pick the player) Need to rescope the query on weapons to only look for weapon of the player not all weapons Need to redo the in game ui to have stat of all the player.</description>
+    </item>
+    
+    <item>
+      <title>Still better collision and health system</title>
+      <link>https://berlingoqc.github.io/public/cod-zombie-2d-clone/journal/2022-06-02/</link>
+      <pubDate>Thu, 02 Jun 2022 11:30:03 +0000</pubDate>
+      
+      <guid>https://berlingoqc.github.io/public/cod-zombie-2d-clone/journal/2022-06-02/</guid>
+      <description>I still have an issue with collision When the zombie wanna cross the destroy window , they just teleport to the other side after some akward step. I need to fix this.
+The first option that i was thinking of is to add property to the collision element to allow specific type of character to cross this element when it&amp;rsquo;s at true.
+Other option would be to disable the collision on the zombie for the time he cross the window i guess.</description>
+    </item>
+    
+    <item>
       <title>Me</title>
       <link>https://berlingoqc.github.io/public/me/</link>
       <pubDate>Tue, 24 May 2022 11:30:03 +0000</pubDate>
       
       <guid>https://berlingoqc.github.io/public/me/</guid>
       <description>William Quintal aka berlingoqc Hello my name is William Quintal , i&amp;rsquo;m a developer from the nation of Québec (currently trap in the country of Canada).
-I create this website to write about my experiences related to programmation, my opinions and to post release and stuff about my too many projects.
-My journey as a programmer It&amp;rsquo;s been a while since a first start programming in 2013 but at first i didn&amp;rsquo;t feel that mutch passionate about it.</description>
+I create this website to write about my experiences related to programmation, my opinions and to post release and stuff about my projects.
+Job experiences and role Desjardins First programming job of my life.
+I was working on multiple small Angular application to add new components.</description>
     </item>
     
     <item>
@@ -189,17 +226,6 @@ All the previous time i try to create a framework for blogging from scratch in g
 I&amp;rsquo;m flexible and i can create a special course for your need based on my experiences and knowledge you can read more about this here
 My values are about sharing knowledge and openness.
 All teaching that i will do will be open source and free to access by all other people on this website.</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://berlingoqc.github.io/public/cod-zombie-2d-clone/journal/2022-06-02/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://berlingoqc.github.io/public/cod-zombie-2d-clone/journal/2022-06-02/</guid>
-      <description>I still have an issue with collision When the zombie wanna cross the destroy window , they just teleport to the other side after some akward step. I need to fix this.
-The first option that i was thinking of is to add property to the collision element to allow specific type of character to cross this element when it&amp;rsquo;s at true.
-Other option would be to disable the collision on the zombie for the time he cross the window i guess.</description>
     </item>
     
   </channel>

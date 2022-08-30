@@ -5,13 +5,31 @@
     <link>https://berlingoqc.github.io/public/tags/</link>
     <description>Recent content in Tags on berlingoqc</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 24 May 2022 11:30:03 +0000</lastBuildDate><atom:link href="https://berlingoqc.github.io/public/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 02 Jun 2022 11:30:03 +0000</lastBuildDate><atom:link href="https://berlingoqc.github.io/public/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>bevy</title>
       <link>https://berlingoqc.github.io/public/tags/bevy/</link>
-      <pubDate>Tue, 24 May 2022 11:30:03 +0000</pubDate>
+      <pubDate>Thu, 02 Jun 2022 11:30:03 +0000</pubDate>
       
       <guid>https://berlingoqc.github.io/public/tags/bevy/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>cod-zombie</title>
+      <link>https://berlingoqc.github.io/public/tags/cod-zombie/</link>
+      <pubDate>Thu, 02 Jun 2022 11:30:03 +0000</pubDate>
+      
+      <guid>https://berlingoqc.github.io/public/tags/cod-zombie/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>journal</title>
+      <link>https://berlingoqc.github.io/public/tags/journal/</link>
+      <pubDate>Thu, 02 Jun 2022 11:30:03 +0000</pubDate>
+      
+      <guid>https://berlingoqc.github.io/public/tags/journal/</guid>
       <description></description>
     </item>
     
@@ -25,29 +43,11 @@
     </item>
     
     <item>
-      <title>cod-zombie</title>
-      <link>https://berlingoqc.github.io/public/tags/cod-zombie/</link>
-      <pubDate>Tue, 24 May 2022 11:30:03 +0000</pubDate>
-      
-      <guid>https://berlingoqc.github.io/public/tags/cod-zombie/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>hugo</title>
       <link>https://berlingoqc.github.io/public/tags/hugo/</link>
       <pubDate>Tue, 24 May 2022 11:30:03 +0000</pubDate>
       
       <guid>https://berlingoqc.github.io/public/tags/hugo/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>journal</title>
-      <link>https://berlingoqc.github.io/public/tags/journal/</link>
-      <pubDate>Tue, 24 May 2022 11:30:03 +0000</pubDate>
-      
-      <guid>https://berlingoqc.github.io/public/tags/journal/</guid>
       <description></description>
     </item>
     
