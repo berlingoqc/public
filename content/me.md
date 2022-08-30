@@ -7,16 +7,13 @@ showToc: true
 TocOpen: true
 ---
 
-## William Quintal aka berlingoqc
-
-Hello my name is William Quintal , i'm a developer from the nation of Québec (currently trap in the country of Canada).
-
-I create this website to write about my experiences related to programmation, my opinions and to post release and stuff
-about my [projects](/public/projects/).
 
 ## Job experiences and role
 
-#### Desjardins
+### Desjardins
+
+* Internship
+* Apr 2019 - Oct 2019 · 7 months
 
 First programming job of my life.
 
@@ -33,7 +30,10 @@ This intership allowed me to discover many technologie and concept like :
 * Building api
 * Seperation of the different models
 
-#### Alborea
+### Alborea
+
+*  Nov 2019 - Oct 2021 · 2 years
+*  Montréal, Québec
 
 First job working alone.
 
@@ -64,7 +64,10 @@ This job allowed my to:
 * Work in relation with the client the get there need and build frame the time necessery to accomplish the project. (dont like this at all)
 * Play more with hosting , migrating from plain VM with nodejs running on them with PM2 to docker / docker-compose and kubernetes.
 
-#### Powerside
+### Powerside
+
+* Mar 2021 - Oct 2021 · 8 months
+* Montréal, Québec
 
 First time working in a small startup in a team of 3 dev , 1 QA and 1 Team Lead.
 
@@ -96,10 +99,11 @@ Things i learn while working there:
 * Angular
 * Github Action
   
-#### Ticketmaster
+### Ticketmaster
 
 * Current job
-* Since novembre 2021
+* Oct 2021 - Present
+* Québec, Québec
 
 In this job i start there by working on new micro-service but after that i move more into a DevOps role
 working on there modernization project to move old application from WAR to Spring Boot self hosted and dockerize
@@ -123,7 +127,7 @@ Things i learn while working there:
 ## Out of work project
 
 
-#### Growbe
+### Growbe
 
 * [github organisation](https://github.com/growbe2)
 * [documentation](https://doc.growbe.ca)
@@ -170,7 +174,7 @@ At that point the controlling of the actor was made manually base on the reading
 triggering of alarm but we are building a dynamic condition engine to automatically regulate the
 environment by linking sensor and actor.
 
-#### autoform and autotable librairie
+### autoform and autotable librairie
 
 * [demo site](https://angular-libs.web.app/autoform)S
 * [github repo](https://github.com/berlingoqc/angular-libs)
@@ -198,35 +202,36 @@ This is use for many things in the growbe project , but this repository is in ne
 
 #### Language that i did at one point but havent touch in a while
 
-* Golang (medium)
-* Python (beginner-medium)
-* C# (medium)
-* C++ (medium)
+* Golang (intermediate)
+* Python (beginner-intermediate)
+* C# (intermediate)
+* C++ (intermediate)
 
 
 #### Language that i'm actively using
 
-* Java , Kotlin (medium)
-* Rust (medium)
-* Typescript (advance)
-* Bash (medium)
+* Java , Kotlin (intermediate)
+* Rust (intermediate)
+* Typescript (nodejs) (advance)
+* Bash (intermediate)
 
 
 #### Framework that i'm experience in
 
 * Angular (advance)
 * Loopback4 (advance)
-* Spring Boot (medium)
-* Bevy (medium)
+* Spring Boot (intermediate)
+* Bevy (intermediate)
+* FreeRTOS (beginner-intermediate)
 
 #### Tool that i'm experience in
 
 * GitHub Action (beginner for a while now, dont really like it)
-* GitLab CI (medium)
-* Docker (medium-advance)
-* Kubernetes (medium-advance)
-* Nginx (medium)
-* Hugo (medium)
+* GitLab CI (intermediate)
+* Docker (intermediate-advance)
+* Kubernetes (intermediate-advance)
+* Nginx (intermediate)
+* Hugo (intermediate)
 * Linux (advance)
 
 ## Reach me
