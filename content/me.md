@@ -200,15 +200,8 @@ This is use for many things in the growbe project , but this repository is in ne
 
 ## Language experiences
 
-#### Language that i did at one point but havent touch in a while
 
-* Golang (intermediate)
-* Python (beginner-intermediate)
-* C# (intermediate)
-* C++ (intermediate)
-
-
-#### Language that i'm actively using
+### Language that i'm actively using
 
 * Java , Kotlin (intermediate)
 * Rust (intermediate)
@@ -216,7 +209,7 @@ This is use for many things in the growbe project , but this repository is in ne
 * Bash (intermediate)
 
 
-#### Framework that i'm experience in
+### Framework that i'm experience in
 
 * Angular (advance)
 * Loopback4 (advance)
@@ -224,7 +217,7 @@ This is use for many things in the growbe project , but this repository is in ne
 * Bevy (intermediate)
 * FreeRTOS (beginner-intermediate)
 
-#### Tool that i'm experience in
+### Tool that i'm experience in
 
 * GitHub Action (beginner for a while now, dont really like it)
 * GitLab CI (intermediate)
@@ -233,6 +226,14 @@ This is use for many things in the growbe project , but this repository is in ne
 * Nginx (intermediate)
 * Hugo (intermediate)
 * Linux (advance)
+
+### No longer using but some experience
+
+* Golang (intermediate)
+* Python (beginner-intermediate)
+* C# (intermediate)
+* C++ (intermediate)
+
 
 ## Reach me
 
