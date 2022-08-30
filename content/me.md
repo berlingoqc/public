@@ -12,8 +12,13 @@ TocOpen: true
 
 ### Desjardins
 
+
+#### Type and Duration
+
 * Internship
 * Apr 2019 - Oct 2019 · 7 months
+
+#### Experiences
 
 First programming job of my life.
 
@@ -32,8 +37,12 @@ This intership allowed me to discover many technologie and concept like :
 
 ### Alborea
 
+#### Type and Duration
+
 *  Nov 2019 - Oct 2021 · 2 years
 *  Montréal, Québec
+
+#### Experiences
 
 First job working alone.
 
@@ -66,8 +75,12 @@ This job allowed my to:
 
 ### Powerside
 
+#### Type and Duration
+
 * Mar 2021 - Oct 2021 · 8 months
 * Montréal, Québec
+
+#### Experiences
 
 First time working in a small startup in a team of 3 dev , 1 QA and 1 Team Lead.
 
@@ -101,9 +114,13 @@ Things i learn while working there:
   
 ### Ticketmaster
 
+#### Type and Duration
+
 * Current job
 * Oct 2021 - Present
 * Québec, Québec
+
+#### Experiences
 
 In this job i start there by working on new micro-service but after that i move more into a DevOps role
 working on there modernization project to move old application from WAR to Spring Boot self hosted and dockerize
@@ -125,7 +142,6 @@ Things i learn while working there:
 
 
 ## Out of work project
-
 
 ### Growbe
 
