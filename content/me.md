@@ -183,6 +183,17 @@ This is build to be use for my dynamic dashboard of the growbe project. I create
 create form to fill the input of an angular component for the user.
 
 
+### loopback4 component
+
+I'm a bigger user of loopback4 for some reason , starting using it for my previous job because it was a choice of
+previous developer and keep using it after.
+
+I create many reusable component for various need. Mainly component that where present in lb3 but not lb4.
+
+This is use for many things in the growbe project , but this repository is in need of some love.
+
+* [github repo](https://github.com/berlingoqc/lb-extensions/tree/master/src/components)
+
 ## Language experiences
 
 #### Language that i did at one point but havent touch in a while
