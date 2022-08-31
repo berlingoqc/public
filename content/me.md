@@ -7,111 +7,25 @@ showToc: true
 TocOpen: true
 ---
 
+## About me
+
+Hello, I'm William Quintal, I have had a long-running passion for computers since a young age.
+
+At a young age, I was observing my godfather working on network switches with C on Ubuntu I was amazed.
+And I thought what one day I'll be a programmer to one day.
+
+
+### General Information
+
+* William Quintal
+* Living in Montréal
+* Working in programming since 2019
+* Start programming in 2015
+* Cégep Lévis-Lauzon , Industrial Programming
+* Share my house with a young dog and an old cat.
 
 ## Job experiences and role
 
-### Desjardins
-
-
-#### Type and Duration
-
-* Internship
-* Apr 2019 - Oct 2019 · 7 months
-
-#### Experiences
-
-First programming job of my life.
-
-I was working on multiple small Angular application to add new components.
-Also work a bit with Spring boot microservice with controller generated from
-the swagger definition.
-
-This intership allowed me to discover many technologie and concept like :
-
-* Angular
-* Kotlin / Spring Boot
-* Swagger and OpenAPI
-* Postman
-* Building api
-* Seperation of the different models
-
-### Alborea
-
-#### Type and Duration
-
-*  Nov 2019 - Oct 2021 · 2 years
-*  Montréal, Québec
-
-#### Experiences
-
-First job working alone.
-
-For most of my time there i was the only one working on there software.
-
-In this job i had to work a lot with external and internal client to build them custom made
-full-stack application and i also maintain old full-stack application made by the previous
-programmer
-
-the application where:
-
-* in-house portal for timesheet , project management and employee database
-* in-house e-learning plateform with the SCROM standard
-* many small demo application to try to bring client in.
-* update old application to new version of framework (lb and angular)
-
-This job allowed my to:
-
-* Build more experience with angular and start creating libraries to recycle concept.
-* Same with nodejs working in loopback3 and latter on porting to loopback4
-* Learn docker , dockering all the application for development / testing / deployment.
-* Learn CI , when i got there all deployment where manual with `scp` i move to CD/CI using GitHub Action.
-* Migrating to loopback4 many component where missing and i had to reimplement some like :
-  * Auto generated crud controller that wrap around repository (with mix-in and anonymous class)
-  * Datasource for email
-  * Controller for assets
-  * Plugin dyanmic authorization system with casbin
-* Work in relation with the client the get there need and build frame the time necessery to accomplish the project. (dont like this at all)
-* Play more with hosting , migrating from plain VM with nodejs running on them with PM2 to docker / docker-compose and kubernetes.
-
-### Powerside
-
-#### Type and Duration
-
-* Mar 2021 - Oct 2021 · 8 months
-* Montréal, Québec
-
-#### Experiences
-
-First time working in a small startup in a team of 3 dev , 1 QA and 1 Team Lead.
-
-In this job i had to work with the in house client to work on there plateform to monitor
-the data of there fleet of IoT device that where monitoring electric grid.
-
-I mainly work on the front-end angular application that was i mess. The app was originally
-build by an external compagny and latter brought back in-house when the compagny first start
-hirring software programmer. In this process the app was badly construct with no regard for
-substainability. So the main focus of my job was to bring in new functionnality but in the end
-i did a lot of refactoring to reduce the complexity and readability of the codebase. In the end
-i also work in the backend stack , this allowed me for the first time to work with a big cloud
-provider like AWS
-
-Feature i work on while there:
-* Integrate a WYSIWYG editor with multimedia asset to preview and edit dynamic report.
-* Working with SQS/MQTT/Lambda to add the capability to send command to specific device in the fleet for maintenance.
-* Fixing lots of bugs
-* Integration CI/CD to move test that where running on precommit hook to CI/CD with GitHub Actions
-
-Things i learn while working there:
-
-* AWS
-  * CloudFormation
-  * Lambda
-  * SQS
-  * IAM
-  * EC2
-* Angular
-* Github Action
-  
 ### Ticketmaster
 
 #### Type and Duration
@@ -122,73 +36,168 @@ Things i learn while working there:
 
 #### Experiences
 
-In this job i start there by working on new micro-service but after that i move more into a DevOps role
-working on there modernization project to move old application from WAR to Spring Boot self hosted and dockerize
-application that are deployable onprem and in Kubernetes. I mainly work on the deployment to kubernetes part.
+In this job, I started there by working on a new micro-service to bridge a new global public API for external partners to the international system but after that, I move more into a DevOps role
+working on their modernization project to move old applications from WAR to Spring Boot inside container image.
+In the modernization effort, I mainly work on the deployment of the applications to eks with helm charts built by other teams. Adding features and integrating them.
 
-
-Things i learn while working there:
+Things I learned while working there:
 
 * Kubernetes (eks)
 * Helm charts (creating and using)
 * Terraform
 * AWS
-  * SecretManager (use with in house tooling to resolve secret in application)j
+  * SecretManager (used with in-house tooling to resolve secrets in application)j
   * IAM 
   * EKS
-  * CloudWatch (exporting to prometheus)
+  * CloudWatch (exporting to Prometheus)
 * Prometheus
 * Spring Boot with Kotlin
 
+### Powerside
 
-## Out of work project
+#### Type and Duration
+
+* Mar 2021 - Oct 2021 · 8 months
+* Montréal, Québec
+
+#### Experiences
+
+First time working in a small startup in a team of 3 dev, 1 QA and 1 Team Lead.
+In this job, I had to work with the in-house client to work on their platform to monitor
+the data of their fleet of IoT devices that were monitoring some electric grid.
+
+I mainly work on the front-end angular application which was too heavy for its needs. The app was originally built by an external company and later brought back in-house when the company first start hiring software programmers.
+In this process, the app was badly constructed with no regard for
+sustainability. So the main focus of my job was to bring in new functionality but in the end, we did a lot of refactoring to reduce the complexity and readability of the codebase.
+In the end, I also work in the backend stack, which allowed me for the first time to work with a big cloud provider like AWS
+
+
+The features I work on while there:
+* Integrate a WYSIWYG editor with multimedia assets to preview and edit a dynamic report.
+* Working with SQS/MQTT/Lambda to add the capability to send commands to a specific device in the fleet for maintenance and configuration.
+* Fixing bugs
+* Integration CI/CD to move tests that were running on a pre-commit hook to CI/CD with GitHub Actions
+
+Things I learned while working there:
+
+* AWS
+  * CloudFormation
+  * Lambda
+  * SQS
+  * IAM
+  * EC2
+* Angular
+* Github Action
+  
+
+### Alborea
+
+#### Type and Duration
+
+*  Nov 2019 - Oct 2021 · 2 years
+*  Montréal, Québec
+
+#### Experiences
+
+My first job working alone.
+
+For most of my time there I was the only one working on their software.
+In this job, I had to work a lot with external and internal clients to build them custom-made full-stack applications and I also maintain old full-stack applications made by the previous programmer
+
+the application where:
+
+* in-house portal for timesheet, project management and employee database (nodejs/looopback{3,4}/angular/firebase)
+* in-house e-learning platform with the SCROM standard (nodejs/loopback4/angular)
+* many small demo applications to try to bring clients in.
+
+This job allowed me to:
+
+* Build more experience with angular and start creating libraries to recycle generic components.
+* Same with nodejs working in loopback3 and latter on porting to loopback4
+* Learn docker, dockering all the applications for development/testing/deployment.
+* Learn CI, when I got there all deployments were manual with `scp`, I move to CD/CI using GitHub Action.
+* Migrating to loopback4 (js to ts also) many components were missing and I had to reimplement some like :
+  * Auto-generated crud controller that wraps around repository (with mix-in and anonymous class)
+  * Datasource for email
+  * Component for assets
+  * Component for dynamic authorization rules with casbin.
+* Work in relation with the client the get their need and build frame the time necessery to accomplish the project.
+* Play more with hosting, migrating from plain VM with nodejs running on them with PM2 to docker / docker-composed
+
+
+### Desjardins
+
+#### Type and Duration
+
+* Internship
+* Apr 2019 - Oct 2019 · 7 months
+
+#### Experiences
+
+First programming job of my life.
+
+I was working on multiple small Angular applications to add new components.
+Also, work a bit with Spring boot microservice with controller generated from
+the swagger definition.
+
+
+This internship allowed me to discover many technologies and concepts like :
+
+* Angular
+* Kotlin / Spring Boot
+* Swagger and OpenAPI
+* Postman
+* Building api
+
+## Other projects
 
 ### Growbe
 
-* [github organisation](https://github.com/growbe2)
+* [github organization](https://github.com/growbe2)
 * [documentation](https://doc.growbe.ca)
 
-The goal of the growbe project is to create an end-to-end solution to monitor and control automatically different type of environment like a greenhouse primarily
+The goal of the growbe project is to create an end-to-end solution to monitor and control automatically different types of environments like a greenhouse primarily
 
-We produce an array of IoT Module that connect to a central device that monitor some module to take action on other modules that are control and observe inside
-user generated dashboard inside our cloud plateform that can be use as a Saas or On-premise.
+We produce an array of IoT modules that connect to a central device that monitors some modules to take action on other modules that are controlled and observed inside user generated dashboard inside our cloud platform that can be used as a Saas or On-premise.
 
-The project is in early stage still , we only have a selected group of beta user. We don't really plan to make a real buisness out of this , we are currently open sourcing
-the software and selling the hardware in the hope to create a community and create a plateform that is usefull to me and the other person involve.
+The project is in the early stage, we only have a selected group of beta users. We don't plan to make a real business out of this, we are currently open sourcing
+the software and selling the hardware in the hope to create a community and create a platform that is useful to me and the other person involved and that I can use
+to try technologies that interested me.
 
-Things i learn while working there:
+Things I learned while working there:
 
 * Kubernetes (microk8s)
-* Helm (building public chart to deploy the cloud)
+* Helm (building public charts to deploy the cloud)
 * FreeRTOS (for the firmware of our modules)
-* Angular (for front-end and librairie)
-* Docker (close to all app and tooling are dockering to work on the project)
+* Angular (for front-end and libraries)
+* Docker (close to all apps and tooling are dockerized to work on the project)
 * Nodejs/loopback4 (for our micro-service)
-* MQTT (mosquitto)
-* Mongodb (aggregation framework for graphs)
+* MQTT (mosquito) (IoT communication)
+* MongoDB (aggregation framework for graphs)
 * Rust (central device software, async with tokio)
-* RTMP (running RTMP server for streaming webcam and device to the cloud plateform)
+* RTMP (running RTMP server for streaming webcam and device to the cloud platform)
 
-Exemple of usage of the project:
 
-Last year i was running a self control greenhouse in my house.
+The use case for the project:
+
+Last year I was running a self-control greenhouse in my house.
 
 The system was reading :
 
 * Air humidity and temperature
-* Humidity of the pot of soils
+* The humidity of the pot of soils
 * Webcam to see the setup
 
-The system was acting:
+The system was acting by:
 
-* Controlling pump and valve for the water tank and the supplement/water tank to each pot of soil.
+* Controlling pumps and valves for the water tank and the supplement/water tank to each pot of soil.
 * Controlling the fan
 * Controlling the light
 * Controlling dehumidifier
 
-At that point the controlling of the actor was made manually base on the reading of the sensor and
+At that point, the control of the actors was made manually base on the reading of the sensor and
 triggering of alarm but we are building a dynamic condition engine to automatically regulate the
-environment by linking sensor and actor.
+environment by linking sensor and actor with conditions.
 
 ### autoform and autotable librairie
 
@@ -196,36 +205,32 @@ environment by linking sensor and actor.
 * [github repo](https://github.com/berlingoqc/angular-libs)
 
 
-Set of two librairie to build table and form dynamically from the typescript code using a single
+Set of two libraries to build tables and forms dynamically from the typescript code using a single
 component.
 
-This is build to be use for my dynamic dashboard of the growbe project. I created annotation to
-create form to fill the input of an angular component for the user.
+This is built to be used for my dynamic dashboard of the growbe project. I created annotations to create forms to fill the input of an angular component for the user.
 
 
 ### loopback4 component
 
-I'm a bigger user of loopback4 for some reason , starting using it for my previous job because it was a choice of
-previous developer and keep using it after.
+I'm a big user of loopback4 for some reason, starting using it for my previous job because it was a choice of the previous developer and keep using it after.
 
-I create many reusable component for various need. Mainly component that where present in lb3 but not lb4.
-
-This is use for many things in the growbe project , but this repository is in need of some love.
+I create many reusable components for various needs. Mainly components that were present in lb3 but not lb4.
+This is used for many things in the growbe project, but this repository needs some love.
 
 * [github repo](https://github.com/berlingoqc/lb-extensions/tree/master/src/components)
 
-## Language experiences
+## Tech Stack
 
 
-### Language that i'm actively using
+### The languages that I'm actively using
 
-* Java , Kotlin (intermediate)
+* Java, Kotlin (intermediate)
 * Rust (intermediate)
 * Typescript (nodejs) (advance)
 * Bash (intermediate)
-
-
-### Framework that i'm experience in
+ 
+### The frameworks that I'm experienced in
 
 * Angular (advance)
 * Loopback4 (advance)
@@ -233,9 +238,9 @@ This is use for many things in the growbe project , but this repository is in ne
 * Bevy (intermediate)
 * FreeRTOS (beginner-intermediate)
 
-### Tool that i'm experience in
+### Tools that I'm most experienced in
 
-* GitHub Action (beginner for a while now, dont really like it)
+* GitHub Action (beginner for a while now, don't like it)
 * GitLab CI (intermediate)
 * Docker (intermediate-advance)
 * Kubernetes (intermediate-advance)
@@ -243,7 +248,7 @@ This is use for many things in the growbe project , but this repository is in ne
 * Hugo (intermediate)
 * Linux (advance)
 
-### No longer using but some experience
+### Also familiar with
 
 * Golang (intermediate)
 * Python (beginner-intermediate)
