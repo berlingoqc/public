@@ -183,6 +183,15 @@ Other option would be to disable the collision on the zombie for the time he cro
     </item>
     
     <item>
+      <title>Mon parcours</title>
+      <link>https://berlingoqc.github.io/public/parcours/</link>
+      <pubDate>Tue, 24 May 2022 11:30:03 +0000</pubDate>
+      
+      <guid>https://berlingoqc.github.io/public/parcours/</guid>
+      <description>Objectifs Exposer différents cheminements qu&amp;rsquo;un finissant en informatique peut emprunter. Rassuer les finissants en informatique sur le stage et l&amp;rsquo;intégration au milieu du travail. Décrire des postes et les tâches associées dans le domaine. Répondre aux questionnements que les finissants peuvent avoir face au milieu du travail. Conseiller les finissants et partager des lecons apprises sur le marché du travail Partager sur les technologies utilisées , les méthodologies employées , les conditions de travailes, etc &amp;hellip; Mon parcous Mes etudes au cégep de Lévis-Lauzon en informatique industrielle Plusieurs arrêtes (priorités c&amp;rsquo;était le volley-ball) Changements de cégep Première passion pour le networking (bluetooth mindstorm , drone ) Plus grande fierté (SCDrone) Mes multiples projects personnels Explorer linux Explorer le monde des serveurs (Linux , FreeBSD , Docker , SMB, OpenVPN, Nginx) Explorer le networking (CCNA) Explorer IoT (RPi, FreeRTOS) Arrivé difficile sur le marché du travail lors des stages Changement d&amp;rsquo;informatique industrielle vers gestion (la ou bcp de job sont).</description>
+    </item>
+    
+    <item>
       <title>My projects</title>
       <link>https://berlingoqc.github.io/public/projects/</link>
       <pubDate>Tue, 24 May 2022 11:30:03 +0000</pubDate>
